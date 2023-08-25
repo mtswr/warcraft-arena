@@ -52,7 +52,7 @@ export default async function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center py-24 overflow-hidden bg-gradient-to-tl from-black via-zinc-800 to-black">
       <span className='text-zinc-200 mb-8'>World of warcraft arena ladder created with <Link href='https://nextjs.org/' className='text-zinc-100 underline'> Next.js </Link>
-        and <Link href='https://develop.battle.net/' className='text-zinc-100 underline'>Blizzard's API</Link>.
+        and <Link href='https://develop.battle.net/' className='text-zinc-100 underline'>Blizzard&apos;s API</Link>.
       </span>
       <div className="max-w-screen-md mx-auto">
         <Table data={data} />
